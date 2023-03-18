@@ -1,0 +1,35 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>4B/5B Encoding</title>
+      <meta name="description" content="Basic example of 4B/5B encoding and decoding.">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <link rel="icon" href="/favicon.ico" sizes="any">
+      <link rel="icon" href="/icon.svg" type="image/svg+xml">
+      <link rel="apple-touch-icon" href="icon.png">
+
+      <link rel="stylesheet" href="css/style.css">
+
+      <meta name="theme-color" content="#fafafa">
+    </head>
+
+    <body>
+        <noscript>This form requires JavaScript enabled.</noscript>
+        <section>
+            <button id="encode" value="encode">Encode</button>
+            <div id="plaintext" class="data">
+                <textarea placeholder="Hello world!">Hello world!</textarea>
+            </div>
+            <div id="cipher" class="data">
+                <textarea readonly></textarea>
+            </div>
+            <div id="output" class="data">
+                <textarea readonly></textarea>
+            </div>
+        </section>
+        <script src="js/4b5b.mjs" type="module"></script>
+        <script src="js/main.mjs" type="module"></script>
+    </body>
+</html>
